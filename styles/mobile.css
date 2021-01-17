@@ -1,0 +1,48 @@
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+@media (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  #navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  #navbar ul {
+    padding: 0.5rem;
+  }
+  #showcase .showcase-content {
+    top: 143px;
+    margin-top: -2rem;
+  }
+  #who {
+    display: block;
+  }
+  #who .who-img {
+    display: none;
+  }
+  #clients .items img {
+    width: 80%;
+  }
+  #clients .items div:last-child {
+    display: none;
+  }
+  #contact {
+    flex-direction: column;
+  }
+  #contact .map {
+    height: 300px;
+  }
+}
+/* iphone 5 */
+@media (max-height: 568px) {
+  .l-heading {
+    font-size: 2.5rem;
+  }
+  .lead {
+    font-size: 1rem;
+  }
+}
